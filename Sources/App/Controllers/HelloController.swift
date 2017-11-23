@@ -5,6 +5,8 @@ import HTTP
 /// creating typical REST patterns
 final class HelloController: ResourceRepresentable {
     let view: ViewRenderer
+
+    
     init(_ view: ViewRenderer) {
         self.view = view
     }

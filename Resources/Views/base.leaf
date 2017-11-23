@@ -6,7 +6,9 @@
 </head>
 <body>
 
-#import("content")
+	#import("content")
 
+
+	<script type="text/javascript" src="/scripts/app.js"></script>
 </body>
 </html>

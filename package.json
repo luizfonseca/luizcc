@@ -1,0 +1,28 @@
+{
+  "name": "luizcc",
+  "version": "1.0.0",
+  "description": "about.luiz.cc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "cross-env NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dev": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizfonseca/luizcc.git"
+  },
+  "author": "Luiz Fonseca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luizfonseca/luizcc/issues"
+  },
+  "homepage": "https://github.com/luizfonseca/luizcc#readme",
+  "devDependencies": {
+    "bulma": "^0.6.1",
+    "cross-env": "^5.1.1",
+    "laravel-mix": "^1.6.1"
+  },
+  "dependencies": {}
+}

@@ -11455,3 +11455,12 @@ body {
   font-family: "Helvetica Neue", sans-serif;
 }
 
+@media screen and (max-width: 860px) {
+  #copyright{
+    rgba(255, 255, 255, 0.5);
+}
+@media screen and (min-heigth: 860px) {
+  #copyright{
+    rgba(255, 255, 255, 0.5);
+}
+
